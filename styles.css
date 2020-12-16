@@ -15,9 +15,16 @@ hr {
     margin: 2rem 0rem;
 }
 
+.list-non-bullet .div-margin {
+    margin-bottom: 1.3rem;
+}
+/* .div-pad {
+    padding: 15rem;
+} */
+
 /* containers */
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem;
 }
 
 .container-center {
@@ -90,6 +97,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 2rem;
 }
 
 .hero .hero-heading {
@@ -105,11 +113,20 @@ hr {
 /* section */
 
 .section {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.section-pro {
+    padding-top: 0rem;
+    padding-bottom: 5rem;
 }
 
 .section h3 {
     text-align: center;
+}
+.section p {
+    margin-bottom: 1rem;
 }
 
 .off-white {

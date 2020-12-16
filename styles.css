@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --primary-color: #818CF8;
+    --primary-color: #3B82F6;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -132,4 +132,9 @@ hr {
 
 .footer .Link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }

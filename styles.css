@@ -94,10 +94,10 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     margin: auto;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .hero .hero-heading {

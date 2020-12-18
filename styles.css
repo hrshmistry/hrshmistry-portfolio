@@ -28,6 +28,11 @@ hr {
 }
 
 .container-center {
+    max-width: 500px;
+    margin: auto;
+}
+
+.container-blog {
     max-width: 600px;
     margin: auto;
 }
@@ -119,8 +124,8 @@ hr {
 /* section */
 
 .section {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .section-pro {

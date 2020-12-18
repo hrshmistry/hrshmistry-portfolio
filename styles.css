@@ -38,6 +38,12 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+.link-block {
+    max-width: 100px;
+    display: block;
+    margin-top: 0.5rem;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;

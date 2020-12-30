@@ -44,7 +44,10 @@ hr {
 }
 
 .link-hover a:hover {
-    border-bottom: 2px white solid;
+    /* border-bottom: 2px white solid; */
+    /* border: 1px solid white;
+    border-radius: 0.5rem;
+    color: white; */
 }
 
 .link-block {

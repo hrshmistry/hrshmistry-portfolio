@@ -44,10 +44,21 @@ hr {
 }
 
 .link-hover a:hover {
-    /* border-bottom: 2px white solid; */
-    /* border: 1px solid white;
-    border-radius: 0.5rem;
-    color: white; */
+    background-color: var(--off-white);
+    /* border: 1px solid white; */
+    border-radius: 0.2rem;
+    color: var(--primary-color);
+}
+
+.icon-color {
+    color: var(--off-white);
+}
+
+.link-hover-blog a:hover {
+    background-color: var(--primary-color);
+    /* border: 1px solid white; */
+    border-radius: 0.3rem;
+    color: white;
 }
 
 .link-block {
@@ -58,13 +69,13 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     color: white;
 }
 
 .link-secondary {
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     color: var(--primary-color);
 }
 

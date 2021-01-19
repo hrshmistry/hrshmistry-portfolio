@@ -44,11 +44,11 @@ hr {
 }
 
 .link-hover a:hover {
-    background-color: var(--off-white);
-    /* border: 1px solid white; */
+    /* background-color: var(--off-white);
+    border: 1px solid white;
     border-radius: 0.2rem;
-    color: var(--primary-color);
-    font-weight: bold;
+    color: var(--primary-color); */
+    /* font-weight: bold; */
 }
 
 .icon-color {

@@ -44,10 +44,10 @@ hr {
 }
 
 .link-hover a:hover {
-    /* background-color: var(--off-white);
-    border: 1px solid white;
-    border-radius: 0.2rem;
-    color: var(--primary-color); */
+    background-color: #2563EB;
+    /* border: 1px solid #2563EB; */
+    border-radius: 0.4rem;
+    /* color: var(--primary-color); */
     /* font-weight: bold; */
 }
 
@@ -58,7 +58,7 @@ hr {
 .link-hover-blog a:hover {
     background-color: var(--primary-color);
     /* border: 1px solid white; */
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     color: white;
 }
 
@@ -70,13 +70,13 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     color: white;
 }
 
 .link-secondary {
     border: 1px solid var(--primary-color);
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     color: var(--primary-color);
 }
 

@@ -15,6 +15,12 @@ hr {
     margin: 2rem 0rem;
 }
 
+#nav-width {
+    max-width: 1100px;
+    margin: auto;
+
+}
+
 .list-non-bullet .div-margin {
     margin-bottom: 1.3rem;
 }

@@ -79,7 +79,7 @@ hr {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--link-hover);
     border-radius: 0.4rem;
     color: white;
 }
@@ -181,7 +181,7 @@ hr {
     padding: 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    /* border-top-right-radius: 1rem; */
 }
 
 .footer ul {

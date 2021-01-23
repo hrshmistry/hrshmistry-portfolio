@@ -18,12 +18,6 @@ hr {
     margin: 2rem 0rem;
 }
 
-#nav-width {
-    max-width: 1150px;
-    margin: auto;
-
-}
-
 .list-non-bullet .div-margin {
     margin-bottom: 1.3rem;
 }
@@ -125,6 +119,12 @@ hr {
 
 .navigation .Link {
     color: white;
+}
+
+#nav-width {
+    max-width: 1150px;
+    margin: auto;
+
 }
 
 /* header */

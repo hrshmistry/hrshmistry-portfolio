@@ -41,7 +41,7 @@ hr {
     margin: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .container-blog-page {
         max-width: 600px;
         margin: auto;

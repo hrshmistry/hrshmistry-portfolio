@@ -41,6 +41,15 @@ hr {
     margin: auto;
 }
 
+.container-blog-page {
+    max-width: 850px;
+    margin: auto;
+}
+
+.container-blog-page p {
+    font-size: larger;
+}
+
 /* links */
 .Link {
     text-decoration: none;
@@ -53,6 +62,11 @@ hr {
     border-radius: 0.4rem;
     /* color: var(--primary-color); */
     /* font-weight: bold; */
+}
+
+.link-hover-blog a:hover {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
 }
 
 .icon-color {

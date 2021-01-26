@@ -41,6 +41,13 @@ hr {
     margin: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .container-blog-page {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
 .container-blog-page {
     max-width: 850px;
     margin: auto;

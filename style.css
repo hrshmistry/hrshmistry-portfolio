@@ -122,22 +122,18 @@ hr {
 
 /* navigation */
 
-/* .nav {
+/* .nav-fixed {
+    overflow:auto;
+    background-color: #666666;
     position: fixed;
-    overflow: hidden;
     top: 0;
     width: 100%;
 } */
 
 .navigation {
-    /* position: fixed;
-    overflow: hidden;
-    top: 0;
-    width: 100%; */
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    /* border-bottom-left-radius: 1rem; */
 }
 
 .navigation .link-active {

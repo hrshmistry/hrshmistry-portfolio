@@ -22,10 +22,29 @@ body {
 
 ::selection {
     color: #FFF;
-    background-color: rgb(158, 124, 193, 0.7);
+    background-color: #9E7CC1;
 }
 
-header {
+.btn-load-more {
+    cursor: pointer;
+}
+
+.btn-load-less {
+    display: none;
+    cursor: pointer;
+}
+
+.show-less-fles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-more-proj {
+    display: none;
+}
+
+.home-header {
     height: calc(100vh - 10rem);
 }
 
@@ -67,6 +86,13 @@ hr {
     margin-bottom: 1.3rem;
 }
 
+.btns-proj {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    width: 100%;
+}
+
 .contribute {
     color: rgb(100, 116, 139, 0.7);
     font-size: 0.8rem;
@@ -82,9 +108,57 @@ hr {
     gap: 1rem !important;
 }
 
-/* .div-pad {
-    padding: 15rem;
-} */
+.proj-info {
+    color: rgb(55, 65, 81, 0.9);
+    font-size: 0.9rem;
+}
+
+.btn-sec {
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-sec:hover {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+.sec-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid #181f2c;
+    border-radius: 0.5rem;
+    width: 500px;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    background-color: #f8fafc;
+    transition: all 0.3s ease-in-out;
+    margin: 0 1rem;
+}
+
+.center-con:hover {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    transform: translateX(10px);
+}
+
+.btn-load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-container {
+    padding: 1rem 2rem;
+}
 
 /* containers */
 .container {
@@ -180,6 +254,13 @@ hr {
     color: var(--primary-color);
 }
 
+.ui-sec {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* list */
 
 .list-non-bullet {
@@ -259,7 +340,7 @@ footer div {
     padding: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     gap: 1rem;
 }
@@ -349,7 +430,7 @@ footer div {
     max-width: 80%;
     width: 350px;
     display: block;
-    margin: auto;
+    margin: 2rem;
     /* padding-top: 1rem; */
 }
 

@@ -10,32 +10,33 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="/style.css">
-    <script src="app.js"></script>
 </head>
 
 <body>
     <nav class="navigation nav-fixed">
         <div id="nav-width">
-                <div class="nav-brand"><a class="Link" href="/index.html" style="padding: 0">Harsh Mistry</a>
-            </div>
-            <!-- <ul class="list-non-bullet nav-pills link-hover"> -->
-            <ul class="list-non-bullet link-hover flex-links">
-                <li class="list-item-inline">
-                    <a class="Link" href="/index.html">Home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="Link" href="/projects.html">Projects</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="Link link-active" href="/blogs.html">Blogs</a>
-                </li>
-            </ul>
+           <div class="nav-brand"><a class="Link" href="/index.html" style="padding: 0;">Harsh Mistry</a>
+           </div>
+           <!-- <ul class="list-non-bullet nav-pills link-hover"> -->
+           <ul class="list-non-bullet link-hover flex-links" id="nav-links">
+              <li class="list-item-inline">
+                 <a class="Link" href="/index.html">Home</a>
+              </li>
+              <li class="list-item-inline">
+                 <a class="Link" href="/projects.html">Projects</a>
+              </li>
+              <li class="list-item-inline">
+                 <a class="Link link-active" href="/blogs.html">Blogs</a>
+              </li>
+           </ul>
+
+           <img src="/images/menu.svg" alt="menu" class="menu" id="menu" onclick="toggleNav()">
         </div>
-    </nav>
+     </nav>
 
     <header class="hero">
-        <img class="hero-img" src="/images/new-blog.svg" alt="Blog">
-        <h1 class="hero-heading">Read my <span style="color: var(--primary-color);">blogs</span></h1>
+        <img class="hero-img" src="/images/blog-hero.svg" alt="Blog">
+        <h2 class="hero-heading">Read my <span style="color: var(--primary-color);">blogs</span></h2>
     </header>
 
     <ul class="list-non-bullet">
@@ -129,6 +130,8 @@
             </div>
         </section>
 
+        <div style="height: 200px;"></div>
+
     </ul>
 
     <footer class="footer">
@@ -168,7 +171,7 @@
         <div>Copyright © 2022 Harsh Mistry.</div>
     </footer>
 
-
+<script src="app.js"></script>
 </body>
 
 </html>

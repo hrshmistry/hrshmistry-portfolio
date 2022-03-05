@@ -3,13 +3,22 @@ const scrollDown = (hash) => {
 }
 
 const navLinks = document.getElementById('nav-links');
-const menu = document.getElementById('menu');
-
 const toggleNav = () => {
     navLinks.classList.toggle('open');
-    console.log("hello");
 }
 
-menu.addEventListener('click', toggleNav);
+const more = document.getElementById('more-projects');
+const loadMoreBtn = document.getElementById('load-more');
+const loadLessBtn = document.getElementById('load-less');
 
+const loadMore = () => {
+    more.classList.add('ui-sec');
+    loadMoreBtn.style.display = 'none';
+    loadLessBtn.classList.add('show-less-fles')
+}
 
+const loadLess = () => {
+    more.classList.remove('ui-sec');
+    loadMoreBtn.style.display = 'block';
+    loadLessBtn.classList.remove('show-less-fles')
+}

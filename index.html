@@ -1,126 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Portfolio of The Harsh Mistryo">
+      <meta name="robots" content="index, follow">
+      <meta name="keywords" content="Harsh, Harsh Mistry,Harsh portfolio ,JavaScript">
+      <meta name="author" content="Harsh Mistry">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- <meta name="theme-color" content="#9E7CC1"> -->
+      <!-- HTML Meta Tags -->
+      <title>Home | Harsh Mistry</title>
+      <meta name="description" content="Portfolio of The Harsh Mistry">
+      <!-- Facebook Meta Tags -->
+      <meta property="og:url" content="https://hrshmistry.netlify.app/">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Home | Harsh Mistry">
+      <meta property="og:description" content="Portfolio of The Harsh Mistry">
+      <meta property="og:image" content="/images/rocket-512.png">
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary">
+      <meta property="twitter:domain" content="hrshmistry.netlify.app">
+      <meta property="twitter:url" content="https://hrshmistry.netlify.app/">
+      <meta name="twitter:title" content="Home | Harsh Mistry">
+      <meta name="twitter:description" content="Portfolio of The Harsh Mistry">
+      <meta name="twitter:image" content="/images/rocket-512.png">
+      <!-- <link rel="shortcut icon" type="image/jpg" href="images/rocket-16.ico"> -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/images/favicon_io/site.webmanifest">
+      <link rel="stylesheet" href="style.css">
+   </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfolio of The Harsh Mistryo">
-    <meta name="robots" content="index, follow">
-    <meta name="keywords" content="Harsh, Harsh Mistry,Harsh portfolio ,JavaScript">
-    <meta name="author" content="Harsh Mistry">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="theme-color" content="#9E7CC1"> -->
-        
-    <!-- HTML Meta Tags -->
-    <title>Home | Harsh Mistry</title>
-    <meta name="description" content="Portfolio of The Harsh Mistry">
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://hrshmistry.netlify.app/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Home | Harsh Mistry">
-    <meta property="og:description" content="Portfolio of The Harsh Mistry">
-    <meta property="og:image" content="/images/rocket-512.png">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary">
-    <meta property="twitter:domain" content="hrshmistry.netlify.app">
-    <meta property="twitter:url" content="https://hrshmistry.netlify.app/">
-    <meta name="twitter:title" content="Home | Harsh Mistry">
-    <meta name="twitter:description" content="Portfolio of The Harsh Mistry">
-    <meta name="twitter:image" content="/images/rocket-512.png">
-      
-    <link rel="shortcut icon" type="image/jpg" href="images/rocket-16.ico">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <nav class="navigation nav-fixed">
-        <div id="nav-width">
-            <div class="nav-brand"><a class="Link" href="/index.html">Harsh Mistry</a></div>
-            <ul class="list-non-bullet nav-pills link-hover">
-                <li class="list-item-inline">
-                    <a class="Link link-active" href="/index.html">Home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="Link" href="/projects.html">Projects</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="Link" href="/blogs.html">Blogs</a>
-                </li>
+   <body>
+      <nav class="navigation nav-fixed">
+         <div id="nav-width">
+            <div class="nav-brand"><a class="Link" href="/index.html" style="padding: 0;">Harsh Mistry</a>
+            </div>
+            <!-- <ul class="list-non-bullet nav-pills link-hover"> -->
+            <ul class="list-non-bullet link-hover flex-links" id="nav-links">
+               <li class="list-item-inline">
+                  <a class="Link link-active" href="/index.html">Home</a>
+               </li>
+               <li class="list-item-inline">
+                  <a class="Link" href="/projects.html">Projects</a>
+               </li>
+               <li class="list-item-inline">
+                  <a class="Link" href="/blogs.html">Blogs</a>
+               </li>
             </ul>
-        </div>
-    </nav>
-    
-    <header class="hero">
-        <img class="hero-img" src="/images/new-home.svg" alt="home">
-        <h1 class="hero-heading">Harsh Mistry the <span style="color: var(--primary-color);">Web Developer</span>
-        </h1>
-    </header>
 
-    <!-- <hr class="container-center" > -->
-    <!-- <hr style="margin: auto; width: 250px;"> -->
+            <img src="/images/menu.svg" alt="menu" class="menu" id="menu">
+         </div>
+      </nav>
 
-    <!-- off-white -->
-    <section class="section">
-        <div class="container container-center">
-            <h1>Technologies</h1>
-            <p>HTML5, CSS3, JavaScript, Bootstrap, ReactJs, NodeJs, Web Hosting, AWS, Flutter</p>
-        </div>
+      <header class="hero">
+         <!-- <img class="hero-img" src="/images/new-home.svg" alt="home"> -->
+         <div class="hero-svg">
+            <img src="/images/hero.svg" alt="Harsh Avatar">
+         </div>
 
-    </section>
-
-    <hr style="margin: auto; width: 250px;">
-
-    <section class="section">
-        <div class="container container-center">
-            <h1>Projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
-            <a class="Link link-primary btn-hover" href="/projects.html" target="_blank" rel="noopener noreferrer">See
-                Projects</a>
-            <!-- <a class="Link link-secondary" href="/">Secondary link</a> -->
-
-        </div>
-    </section>
-
-    <hr style="margin: auto; width: 250px;">
-
-    <!-- off-white -->
-    <section class="section">
-        <div class="container link-hover-blog container-center">
-            <h1>Blogs</h1>
-            <p>I am also working on some technical and non technical blogs. i like to document my journey of learning.
-            </p>
-            <a class="Link link-secondary" href="/blogs.html" target="_blank" rel="noopener noreferrer">Read Blogs</a>
-        </div>
-
-    </section>
-
-    <footer class="footer">
-        <div class="footer-header">Around The Web</div>
-        <ul class="social-links list-non-bullet icon">
+         <h1>I'm Harsh Mistry</h1>
+         <h2>A Front-end Web Developer <br> & UI/UX enthusiast</h2>
+         <!-- <h1 class="hero-heading">Harsh Mistry the 
+            <span style="color: var(--primary-color);">Web Developer</span>
+            </h1> -->
+         <ul class="social-links list-non-bullet icon hero-sl">
             <li class="list-item-inline">
-                <a href="https://github.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
-                        style="height: 2.4rem; width: 2.4rem; margin: 1rem;" src="/images/github.svg"
-                        title="Github"></a>
-            </li>
-
-            <li class="list-item-inline">
-                <a href="https://www.linkedin.com/in/hrshmistry/" target="_blank" rel="noopener noreferrer"><img
-                        style="height: 2.3rem; width: 2.3rem; margin: 1rem;" src="/images/linkedin.svg"
-                        title="LinkedIn"></a>
+               <a href="https://github.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/github-1.svg"
+                  title="Github"></a>
             </li>
             <li class="list-item-inline">
-                <a href="https://twitter.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
-                        style="height: 2.5rem; width: 2.5rem; margin: 1rem;" src="/images/twitter.svg"
-                        title="Twitter"></a>
+               <a href="https://twitter.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/twitter-1.svg"
+                  title="Twitter"></a>
             </li>
             <li class="list-item-inline">
-                <a href="https://dev.to/hrshmistry" target="_blank" rel="noopener noreferrer"><img
-                        style="height: 2.4rem; width: 2.4rem; margin: 1rem;" src="/images/dev-brands.svg"
-                        title="Dev.to"></a>
+               <a href="https://www.instagram.com/thefrontendev/" target="_blank" rel="noopener noreferrer">
+               <img src="/images/insta-1.svg" title="instagram">
+               </a>
             </li>
-        </ul>
-    </footer>
-</body>
+            <li class="list-item-inline">
+               <a href="https://www.linkedin.com/in/hrshmistry/" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/linkedin-1.svg"
+                  title="LinkedIn"></a>
+            </li>
+            <li class="list-item-inline">
+               <a href="https://dev.to/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 2rem; width: 2rem;" src="/images/dev-1.svg"
+                  title="Dev.to"></a>
+            </li>
+         </ul>
 
+         <div class="scroll" id="scroll" onclick="scrollDown('about')">
+            <img src="/images/scroll.svg" alt="scroll">
+         </div>
+      </header>
+      <!-- <hr class="container-center" > -->
+      <!-- <hr style="margin: auto; width: 250px;"> -->
+
+      <main>
+         <!-- off-white -->
+         <section class="section" id="about">
+            <div class="container container-center">
+               <h1>About me</h1>
+               <!-- <p>HTML5, CSS3, JavaScript, Bootstrap, ReactJs, NodeJs, Web Hosting, AWS, Flutter</p> -->
+               <div class="about">
+                  <div>
+                     <img src="/images/about.svg" alt="about" class="about-img">
+                  </div>
+
+                  <div class="info">
+                     <p>I'm a thriving Front-end Web Developer with a nifty curiosity for Design and User Experience. Apart from this, I have a good understanding of Back-end technologies as well as designing using Figma, Adobe Photoshop and Adobe Illustrator.</p>
+
+                     <div class="all-pills">
+                        <span class="pills">HTML5</span>
+                        <span class="pills">CSS3</span>
+                        <span class="pills">JavaScript</span>
+                        <span class="pills">ReactJs</span>
+                        <span class="pills">NodeJs</span>
+                        <span class="pills">Express</span>
+                        <span class="pills">Bootstrap5</span>
+                        <span class="pills">Tailwind CSS</span>
+                        <span class="pills">Material-UI</span>
+                        <span class="pills">Framer Motion</span>
+                        <span class="pills">GitHub</span>
+                        <span class="pills">Figma</span>
+                        <span class="pills">MySQL</span>
+                        <span class="pills">Mongodb</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- <hr style="margin: auto; width: 250px;"> -->
+
+         <section class="section">
+            <div class="container container-center">
+               <h1>Check out my work</h1>
+               <!-- <a class="Link link-secondary" href="/">Secondary link</a> -->
+
+               <div class="about reverse-project">
+                <div class="item-1">
+                   <img src="/images/project.svg" alt="about" class="project-img">
+                </div>
+                
+                <div class="info item-2 proj-text">
+                    <p>A gallery to showcase my work and projects, View live hosted apps as well as github links.
+                       <br> <span class="contribute">(Open for contributions)</span>
+                    </p>
+               <a class="Link link-primary btn-hover" href="/projects.html" target="_blank" rel="noopener noreferrer">See
+               Projects</a>
+                </div>
+             </div>
+            </div>
+         </section>
+
+         <!-- <hr style="margin: auto; width: 250px;"> -->
+
+         <!-- off-white -->
+         <section class="section">
+            <div class="container link-hover-blog container-center ab">
+               <h1>Read my Blogs</h1>
+
+               <div class="about ii">
+                <div class="item-1">
+                   <img src="/images/blog.svg" alt="about" class="blog-img">
+                </div>
+                
+                <div class="info item-2">
+                    <p>Along with coding and development, I write technical and non-technical blogs. Usually, I document my journey of learning regularly.
+                    </p>
+                    <a class="Link link-secondary" href="/blogs.html" target="_blank" rel="noopener noreferrer">Read Blogs</a>
+                </div>
+             </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer-header">Around The Web</div>
+         <ul class="social-links list-non-bullet icon">
+            <li class="list-item-inline">
+               <a href="https://github.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/github.svg"
+                  title="Github"></a>
+            </li>
+            <li class="list-item-inline">
+               <a href="https://twitter.com/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/twitter.svg"
+                  title="Twitter"></a>
+            </li>
+            <li class="list-item-inline">
+               <a href="https://www.instagram.com/thefrontendev/" target="_blank" rel="noopener noreferrer">
+               <img src="/images/insta.svg" title="instagram">
+               </a>
+            </li>
+            <li class="list-item-inline">
+               <a href="https://www.linkedin.com/in/hrshmistry/" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 1.8rem; width: 1.8rem;" src="/images/linkedin.svg"
+                  title="LinkedIn"></a>
+            </li>
+            <li class="list-item-inline">
+               <a href="https://dev.to/hrshmistry" target="_blank" rel="noopener noreferrer"><img
+                  style="height: 2rem; width: 2rem;" src="/images/dev-brands.svg"
+                  title="Dev.to"></a>
+            </li>
+         </ul>
+         <div>Copyright © 2022 Harsh Mistry.</div>
+      </footer>
+
+      <script src="app.js"></script>
+   </body>
 </html>

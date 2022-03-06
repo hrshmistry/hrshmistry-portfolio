@@ -319,7 +319,6 @@ hr {
 /* .nav-fixed {
     position: fixed;
     width: 100%;
-    z-index: 1;
 } */
 
 #nav-width {
@@ -579,12 +578,11 @@ footer div {
         align-items: center;
         gap: 3rem;
         width: -webkit-fill-available;
-        padding: 5rem 1rem;
+        padding: 4rem 1rem;
         height: auto;
         left: 0;
         position: absolute;
-        top: 2rem;
+        top: 4rem;
         background-color: #181f2c;
-        z-index: 111;
     }
 }

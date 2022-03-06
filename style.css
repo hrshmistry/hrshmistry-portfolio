@@ -44,6 +44,11 @@ body {
     display: none;
 }
 
+.react-banner {
+    width: 100%;
+    /* height: 100vh; */
+}
+
 .home-header {
     height: calc(100vh - 10rem);
 }
@@ -182,6 +187,10 @@ hr {
     padding: 1rem 1rem 3rem 1rem;
     max-width: 800px;
     margin: auto;
+}
+
+.container-blog-page p {
+    color: #374151;
 }
 
 .container-blog-page>h1 {
@@ -428,7 +437,7 @@ footer div {
 
 .hero .hero-img {
     max-width: 80%;
-    width: 350px;
+    /* width: 350px; */
     display: block;
     margin: 2rem;
     /* padding-top: 1rem; */

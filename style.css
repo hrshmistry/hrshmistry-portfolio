@@ -55,15 +55,15 @@ body {
 
 .scroll {
     margin: auto;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    animation: up-down infinite 1s;
 }
 
 .scroll:hover {
     opacity: 0.8;
-    animation: up-down infinite 1s;
 }
 
 @keyframes up-down {

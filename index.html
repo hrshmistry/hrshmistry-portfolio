@@ -50,6 +50,9 @@
                <li class="list-item-inline">
                   <a class="Link" href="/blogs.html">Blogs</a>
                </li>
+               <li class="list-item-inline">
+                  <a class="Link" href="#contact" onclick="toggleNav()">Contact</a>
+               </li>
             </ul>
 
             <img src="/images/menu.svg" alt="menu" class="menu" id="menu" onclick="toggleNav()">
@@ -180,7 +183,48 @@
              </div>
             </div>
          </section>
+
+         <div id="contact" style="height: 100px;"></div>
+         <section class="section">
+            <h1>Contact info</h1>
+            <div class="contact-form">
+               <div class="contact-title">
+                  <i class="ph-arrow-right"></i>
+                  Let's level up your brand, together 🚀
+               </div> 
+               <form action="https://formsubmit.co/hhrshmistry@gmail.com" method="POST"> 
+
+                  <div class="section-1">
+                     <div class="c-field">
+                        <span>Name*</span>
+                        <input type="text" name="name" placeholder="Your name" required>
+                     </div>
+                     
+                     <div class="c-field">
+                        <span>Email*</span>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                     </div>
+                  </div>
+                  
+                  <div class="c-message">
+                     <span>How can i help you?*</span>
+                     <input type="text" name="message" placeholder="Message" required>
+                  </div>
+
+                  <div class="contact-form-submit-btn">
+                     <button type="submit">Submit</button>
+                  </div>
+                  
+                  <input type="hidden" name="_next" value="https://hrshmistry.netlify.app/thanks.html">
+                  <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5501/thanks.html"> -->
+                  <input type="hidden" name="_subject" value="👋 New Message from hrshmistry.netlify.app | CONTACT NOW">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="table">
+               </form>
+            </div>
+         </section>
       </main>
+
 
       <button class="scroll-to-top">
          <i class="ph-arrow-up"></i>

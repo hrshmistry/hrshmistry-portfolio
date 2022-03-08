@@ -614,6 +614,143 @@ footer div {
     opacity: 0.8;
 }
 
+.contact-form {
+    max-width: 850px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0.5rem;
+
+    font-size: 2rem;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    flex: 0.5;
+}
+
+.c-field span {
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.c-field input {
+    width: -webkit-fill-available;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+
+    border-radius: 5rem;
+    border: 2px solid rgb(51, 65, 85, 0.5);
+
+    outline: none;
+}
+
+.c-message {
+    margin-top: 1rem;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.c-message span {
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.c-message input {
+    width: -webkit-fill-available;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+
+    border-radius: 1rem;
+    border: 2px solid rgb(51, 65, 85, 0.5);
+
+    outline: none;
+}
+
+.contact-form-submit-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.contact-form-submit-btn button{
+    border: 2px solid rgb(51, 65, 85, 0.5);
+    color: var(--link-hover);
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.contact-form-submit-btn button:hover{
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+.f-th {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.thank-you {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+
+   padding: 2rem;
+   max-width: 100%;
+}
+
+.thank-you div {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(51, 65, 85, 0.6);
+}
+
+.thank-you a {
+    color: var(--primary-color);
+}
+
 @media screen and (max-width: 600px) {
     #nav-links {
         display: none;
@@ -652,5 +789,18 @@ footer div {
 
     #nav-width {
         padding-top: 0.5rem;
+    }
+
+    .contact-title {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* gap: 0.5rem; */
+    
+        font-size: 1.5rem;
+    }
+
+    .section-1 {
+        flex-direction: column;
     }
 }

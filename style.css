@@ -276,6 +276,14 @@ hr {
     list-style: none;
 }
 
+.icon-hover {
+    transition: all 0.15s ease-in-out;
+}
+
+.icon-hover:hover {
+    transform: translateY(-5px);
+}
+
 .list-item-inline {
     display: inline;
 }
@@ -460,7 +468,7 @@ footer div {
 }
 
 .section-pro {
-    padding: 0 2rem 3rem 0;
+    padding: 0 1rem 3rem 0;
 }
 
 .section h1 {
@@ -584,5 +592,9 @@ footer div {
         position: absolute;
         top: 4rem;
         background-color: #181f2c;
+    }
+
+    .hero .hero-img{
+        max-width: 100%;
     }
 }

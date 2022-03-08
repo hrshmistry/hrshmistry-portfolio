@@ -727,7 +727,7 @@ footer div {
 .f-th {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: -webkit-fill-available;
 }
 
 .thank-you {

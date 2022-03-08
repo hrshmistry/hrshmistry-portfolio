@@ -26,18 +26,16 @@ const loadLess = () => {
 const scrollToTop = document.querySelector('.scroll-to-top');
 const nav = document.querySelector('.navigation');
 
-const scrollBtnVisibility = () => {
+const dynamicNav = () => {
     if (document.documentElement.scrollTop >= 400) {
         nav.style.paddingBlock = 0;
-        if (screen.width <= 600) {
-            navLinks.style.marginTop = '-1rem';
-        }
     } else {
         nav.style.paddingBlock = '1rem';
-        if (screen.width <= 600) {
-            navLinks.style.marginTop = '0rem';
-        }
     }
+}
+
+const scrollBtnVisibility = () => {
+    dynamicNav();
 
     if (document.documentElement.scrollTop >= 400) {
         scrollToTop.style.display = 'block';

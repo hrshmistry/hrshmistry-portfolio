@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    /* --primary-color: #9E7CC1; */
+    --main-color: #9E7CC1;
     --primary-color: #181f2c;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
@@ -270,6 +270,43 @@ hr {
     gap: 1rem;
 }
 
+.scroll-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    cursor: pointer;
+    font-size: 1.5rem;
+
+    width: 50px;
+    height: 50px;
+    padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5rem;
+    border: 2px solid white;
+
+    color: #FFF;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+    animation: up 0.4s infinite alternate;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
 /* list */
 
 .list-non-bullet {
@@ -303,6 +340,12 @@ hr {
     color: white;
     padding: 1rem;
     height: 60px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 11;
+    transition: all 0.3s ease-in-out;
 }
 
 .navigation .link-active {
@@ -590,11 +633,24 @@ footer div {
         height: auto;
         left: 0;
         position: absolute;
-        top: 4rem;
+        top: 3.5rem;
+        margin: 0;
         background-color: #181f2c;
     }
 
     .hero .hero-img{
         max-width: 100%;
+    }
+
+    .scroll-to-top {
+        font-size: 1.5rem;
+    
+        width: 40px;
+        height: 40px;
+        padding: 0.3rem 0.2rem 0.2rem 0.2rem;
+    }
+
+    #nav-width {
+        padding-top: 0.5rem;
     }
 }

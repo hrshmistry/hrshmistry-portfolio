@@ -22,3 +22,37 @@ const loadLess = () => {
     loadMoreBtn.style.display = 'block';
     loadLessBtn.classList.remove('show-less-fles')
 }
+
+const scrollToTop = document.querySelector('.scroll-to-top');
+const nav = document.querySelector('.navigation');
+
+const scrollBtnVisibility = () => {
+    if (document.documentElement.scrollTop >= 400) {
+        nav.style.paddingBlock = 0;
+        if (screen.width <= 600) {
+            navLinks.style.marginTop = '-1rem';
+        }
+    } else {
+        nav.style.paddingBlock = '1rem';
+        if (screen.width <= 600) {
+            navLinks.style.marginTop = '0rem';
+        }
+    }
+
+    if (document.documentElement.scrollTop >= 400) {
+        scrollToTop.style.display = 'block';
+    } else {
+        scrollToTop.style.display = 'none';
+    }
+}
+
+scrollBtnVisibility();
+
+scrollToTop.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+
+document.addEventListener('scroll', scrollBtnVisibility);

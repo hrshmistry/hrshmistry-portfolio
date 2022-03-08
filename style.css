@@ -751,7 +751,15 @@ footer div {
     color: var(--primary-color);
 }
 
+#contact {
+    height: 100px;
+}
+
 @media screen and (max-width: 600px) {
+    #contact {
+        height: 50px;
+    }
+
     #nav-links {
         display: none;
     }

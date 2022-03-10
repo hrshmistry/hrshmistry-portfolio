@@ -38,9 +38,13 @@ const scrollBtnVisibility = () => {
     dynamicNav();
 
     if (document.documentElement.scrollTop >= 400) {
-        scrollToTop.style.display = 'block';
+        // scrollToTop.style.display = 'block';
+        scrollToTop.style.opacity = 1;
+        scrollToTop.style.visibility = 'visible';
     } else {
-        scrollToTop.style.display = 'none';
+        // scrollToTop.style.display = 'none';
+        scrollToTop.style.opacity = 0;
+        scrollToTop.style.visibility = 'hidden';
     }
 }
 

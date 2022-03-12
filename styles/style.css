@@ -445,6 +445,18 @@ footer div {
     background-color: #181f2c;
 }
 
+.pr-pills {
+    color: var(--link-hover);
+    background-color: #eaebed;
+    font-size: small;
+    cursor: auto;
+}
+
+.pr-pills:hover {
+    color: var(--link-hover);
+    background-color: #eaebed;
+}
+
 .info {
     display: flex;
     flex-direction: column;

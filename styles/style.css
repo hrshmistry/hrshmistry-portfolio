@@ -22,7 +22,7 @@ body {
 
 ::selection {
     color: #FFF;
-    background-color: var(--primary-color);
+    background-color: var(--link-hover);
 }
 
 .btn-load-more {

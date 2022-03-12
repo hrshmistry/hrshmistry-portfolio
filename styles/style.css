@@ -22,7 +22,7 @@ body {
 
 ::selection {
     color: #FFF;
-    background-color: #9E7CC1;
+    background-color: var(--primary-color);
 }
 
 .btn-load-more {

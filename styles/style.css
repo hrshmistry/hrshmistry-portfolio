@@ -614,6 +614,10 @@ footer div {
     .all-pills {
         justify-content: center;
     }
+
+    .pr-pills {
+        justify-content: flex-start;
+    }
 }
 
 .menu {

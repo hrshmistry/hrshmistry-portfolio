@@ -154,6 +154,27 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     transform: translateX(10px);
 }
+.center-con:hover .title-coming span{
+        background-color: rgb(24, 31, 44, 0.85);
+        color: #FFF;
+}
+
+.title-coming {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-coming span {
+    border: 1px solid rgb(24, 31, 44, 0.5);
+    background-color: rgb(24, 31, 44, 0.05);
+    padding: 0.2rem 0.5rem;
+    border-radius: 5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
 
 .btn-load-more {
     display: flex;

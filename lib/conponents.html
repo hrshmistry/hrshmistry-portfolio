@@ -1,148 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link rel="stylesheet" href="/styles.css">
-</head>
-
-<body>
-    <h1>hrshmistry's Component Library</h1>
-
-    <p>I am attending neog.camp and i want to make a Library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a pragraph</p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a center container and it will go till specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="Link link-primary" href="/">Primary link</a>
-    <a class="Link link-secondary" href="/">Secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-    <nav class="navigation">
-        <div class="nav-brand">The Brand Name</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="Link link-active" href="/">home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="Link" href="/">projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="Link" href="/">about</a>
-            </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Component Library</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <h1>hrshmistry's Component Library</h1>
+        <p>I am attending neog.camp and i want to make a Library which would make all my projects look good and consistent.
+        </p>
+        <hr>
+        <h2>@typography</h2>
+        <h1>This is the biggest heading</h1>
+        <h2>This is the second biggest heading</h2>
+        <p>Let me show you the normal text. This is free flowing and will wrap at the end like a pragraph</p>
+        <p>This paragraph will have a <strong>bold</strong> text</p>
+        <small>This is relatively smaller text</small>
+        <hr>
+        <h2>@containers</h2>
+        <h3>fluid container</h3>
+        <div class="container">This is a fluid container and it will go till end of the page</div>
+        <h3>center container</h3>
+        <div class="container container-center">This is a center container and it will go till specified width</div>
+        <hr>
+        <h2>@links</h2>
+        <a class="Link link-primary" href="/">Primary link</a>
+        <a class="Link link-secondary" href="/">Secondary link</a>
+        <hr>
+        <h2>@lists</h2>
+        <h3>unordered list</h3>
+        <p>This list will not have the bullet</p>
+        <ul class="list-non-bullet">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
         </ul>
-    </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
-    <header class="hero">
-        <img class="hero-img" src="images/home.svg">
-        <h1 class="hero-heading">Harsh Mistry the <span style="color: var(--primary-color);">web developer</span></h1>
-    </header>
-
-    <hr>
-
-    <h2>@section</h2>
-
-    <section class="section">
-        <div class="container-center">
-            <h3>white section</h3>
-            <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML
-                is used to define the structure and semantics of your content, CSS is used to style it and lay it out.
-                For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into
-                multiple columns, or add animations and other decorative features.</p>
-        </div>
-
-    </section>
-
-    <section class="section off-white">
-        <div class="container-center">
-            <h3>off white section</h3>
-            <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML
-                is used to define the structure and semantics of your content, CSS is used to style it and lay it out.
-                For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into
-                multiple columns, or add animations and other decorative features.</p>
-        </div>
-
-    </section>
-
-    <hr>
-
-    <h2>@footer</h2>
-    <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="Link" href="/">socialOne</a></li>
-            <li class="list-item-inline"><a class="Link" href="/">socialTwo</a></li>
-            <li class="list-item-inline"><a class="Link" href="/">socialThree</a></li>
+        <h3>unordered inline list</h3>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">Inline Item One</li>
+            <li class="list-item-inline">Inline Item Two</li>
+            <li class="list-item-inline">Inline Item Three</li>
         </ul>
-    </footer>
-
-
-
-
-
-
-
-
-
-    <!-- <div style="height: 30vh;"></div> -->
-</body>
-
+        <h3>reverse ordered list</h3>
+        <ol reversed>
+            <li>milk</li>
+            <li>eggs</li>
+            <li>bread</li>
+        </ol>
+        <hr>
+        <h2>@nav</h2>
+        <nav class="navigation">
+            <div class="nav-brand">The Brand Name</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="Link link-active" href="/">home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="Link" href="/">projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="Link" href="/">about</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>@header</h2>
+        <header class="hero">
+            <img class="hero-img" src="images/home.svg">
+            <h1 class="hero-heading">Harsh Mistry the <span style="color: var(--primary-color);">web developer</span></h1>
+        </header>
+        <hr>
+        <h2>@section</h2>
+        <section class="section">
+            <div class="container-center">
+                <h3>white section</h3>
+                <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML
+                    is used to define the structure and semantics of your content, CSS is used to style it and lay it out.
+                    For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into
+                    multiple columns, or add animations and other decorative features.
+                </p>
+            </div>
+        </section>
+        <section class="section off-white">
+            <div class="container-center">
+                <h3>off white section</h3>
+                <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML
+                    is used to define the structure and semantics of your content, CSS is used to style it and lay it out.
+                    For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into
+                    multiple columns, or add animations and other decorative features.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <h2>@footer</h2>
+        <footer class="footer">
+            <div class="footer-header">Some small heading inside footer</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="Link" href="/">socialOne</a></li>
+                <li class="list-item-inline"><a class="Link" href="/">socialTwo</a></li>
+                <li class="list-item-inline"><a class="Link" href="/">socialThree</a></li>
+            </ul>
+        </footer>
+        <!-- <div style="height: 30vh;"></div> -->
+    </body>
 </html>

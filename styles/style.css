@@ -637,16 +637,6 @@ footer div {
     }
 }
 
-.menu {
-    display: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-.menu:hover {
-    opacity: 0.8;
-}
-
 .contact-form {
     max-width: 850px;
     display: flex;
@@ -791,6 +781,17 @@ footer div {
     height: 100px;
 }
 
+.ph-equals {
+    display: none !important;
+    cursor: pointer;
+    font-size: x-large;
+    transition: all 0.2s ease-in-out;
+}
+
+.ph-equals:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 600px) {
     #contact {
         height: 50px;
@@ -798,8 +799,8 @@ footer div {
     #nav-links {
         display: none;
     }
-    .menu {
-        display: block;
+    .ph-equals {
+        display: block !important;
     }
     #nav-links.open {
         display: flex;

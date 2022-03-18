@@ -3,8 +3,11 @@ const scrollDown = (hash) => {
 }
 
 const navLinks = document.getElementById('nav-links');
+const menuIcon = document.getElementById('menuIcon');
+
 const toggleNav = () => {
     navLinks.classList.toggle('open');
+    menuIcon.classList.toggle('ph-x');
 }
 
 const more = document.getElementById('more-projects');

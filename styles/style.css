@@ -472,11 +472,14 @@ footer div {
     background-color: #eaebed;
     font-size: small;
     cursor: auto;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
 }
 
 .pr-pills:hover {
     color: var(--link-hover);
     background-color: #eaebed;
+    border: rgb(51, 65, 85, 0.5) 1px solid;
 }
 
 .info {

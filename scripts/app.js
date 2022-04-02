@@ -5,11 +5,10 @@ const sr = ScrollReveal({
     duration: 2500,
 });
 
-sr.reveal('.dev-profile');
-sr.reveal('.dev-name', { delay: 300 });
-sr.reveal('.dev-desc', { delay: 400 });
-sr.reveal('.dev-links', { interval: 100, delay: 500 });
-sr.reveal('.dev-scroll', { delay: 600 });
+sr.reveal('#dev-profile');
+sr.reveal('#dev-name', { delay: 300 });
+sr.reveal('#dev-desc', { delay: 400 });
+sr.reveal('#dev-links', { delay: 500 });
 
 const scrollDown = (hash) => {
     location.replace("#" + hash)

@@ -1,19 +1,3 @@
-// scroll reveal animation
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '40px',
-    duration: 2500,
-});
-
-sr.reveal('#dev-profile');
-sr.reveal('#dev-name', { delay: 300 });
-sr.reveal('#dev-desc', { delay: 400 });
-sr.reveal('#dev-links', { delay: 500 });
-
-const scrollDown = (hash) => {
-    location.replace("#" + hash)
-}
-
 const navLinks = document.getElementById('nav-links');
 const menuIcon = document.getElementById('menuIcon');
 
@@ -73,3 +57,19 @@ scrollToTop.addEventListener('click', () => {
 })
 
 document.addEventListener('scroll', scrollBtnVisibility);
+
+// scroll reveal animation
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '40px',
+    duration: 2500,
+});
+
+sr.reveal('#dev-profile');
+sr.reveal('#dev-name', { delay: 300 });
+sr.reveal('#dev-desc', { delay: 400 });
+sr.reveal('#dev-links', { delay: 500 });
+
+const scrollDown = (hash) => {
+    location.replace("#" + hash)
+}
